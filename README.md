@@ -53,9 +53,9 @@ Step 3 - Install and enable IIS (Internet Information Services) in Windows with 
 <br />
 
 <p>
-<img src="https://i.imgur.com/N4bOKV7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/EyyYfyB" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 3 - Install and enable IIS (Internet Information Services) in Windows with CGI. To accomplish this, go to the control panel and press "Uninstall a program". Then press "Turn Windows features on or off". Look up Interent Information Sevices and check the box to the left. Afterwards,  press on World Wide Web Services then Application Development Features to check the box for CGI. Press "OK" and wait for CGI to load. CGI is one of the dependents osTicket needs for part of the web sever.  
+Step 3.2 - To insure Step 3 was done correctly, go to a web brower and type 127.0.0.1, which is a the IP address for a computer's local network otherwise known as a loopback address. A similar image should appear if Step 3 was followed.   
 </p>
 <br />
