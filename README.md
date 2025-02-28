@@ -53,7 +53,7 @@ Step 3 - Install and enable IIS (Internet Information Services) in Windows with 
 <br />
 
 <p>
-<img src="https://imgur.com/EyyYfyB" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/EyyYfyB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 3.2 - To insure Step 3 was done correctly, go to a web brower and type 127.0.0.1, which is a the IP address for a computer's local network otherwise known as a loopback address. A similar image should appear if Step 3 was followed.   
