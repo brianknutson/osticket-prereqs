@@ -67,3 +67,11 @@ Step 3.2 - To insure Step 3 was done correctly, go to a web brower and type 127.
 Step 4 - Install PHP Manager for IIS. PHP Manager is a tool that allows administrators and developers to manage and configure PHP installations on a Windows server running IIS. PHP Manager is needed for IIS to run properly.    
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/ufrM1A0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 5 - Install Rewrite Module, which is another tool needed for IIS to run properly.     
+</p>
+<br />
