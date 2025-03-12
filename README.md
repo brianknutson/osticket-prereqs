@@ -190,7 +190,7 @@ Step 16 - Permissions need to be assigned to file "ost-config.php", so osTicket 
 <br />
 
 <p>
-<img src="https://imgur.com/a/wTuopsu" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hfnUyf7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 17 - Go back to the osTicket website to continue setting up osTicket in the browser. Click "Continue". Now fill out the information until "Database Settings". Note that the Default email must be different from the admin email. 
