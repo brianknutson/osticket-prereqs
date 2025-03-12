@@ -156,6 +156,23 @@ Step 13 - Within the IIS Manager,  go to "Sites" then "Default" then "osTicket".
 <img src="https://i.imgur.com/v8rpi5U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 14 - To enable those extensions. Go back to IIS, click on "Sites" then "Default" then "osTicket" then double-click PHP Manager. Then click "Enable or disable an extension". Next, enable "php_imap.dll", "php_intl.dll", and "php_opcache.dll".  
+<p>
+<img src="https://i.imgur.com/tTT4itq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+Step 14 - To enable those extensions. Go back to IIS, click on "Sites" then "Default" then "osTicket" then double-click PHP Manager. Then click "Enable or disable an extension". Next, enable "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Finally, refresh the osTicket site in your browser. It should look like the picture of the osTicket website above after enabling those extensions.  
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/zjWpMvp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/bOnlgQy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 15 - Go to C:\inetpub\wwwroot\osTicket\include. Then find the file ost-sampleconfig.php then rename it to ost-config.php. 
 </p>
 <br />
