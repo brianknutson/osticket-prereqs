@@ -198,7 +198,7 @@ Step 17 - Go back to the osTicket website to continue setting up osTicket in the
 <br />
 
 <p>
-<img src="https://i.imgur.com/pP3Pj6C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wffgZi5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
