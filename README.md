@@ -96,7 +96,7 @@ Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket
 <img src="https://i.imgur.com/76AVSm8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 8 - Install MySQL 5.5.62., which is a database that osTicket will use to store all the data in (users' accounts, ticketing information, etc.). When choosing the setup type when installing MySQL, make sure to choose the "Typical" settings. Next check the "Launch the MySQL Instance Configuration Wizard" before clicking finish. After when asked for a configuration type, choose "Standard Configuration". When asked to "Please set the Windows Options", just press "Next". Then, choose a password then press "Next". Finally, press "Execute".  
+Step 8 - Install MySQL 5.5.62., which is a database that osTicket will use to store all the data in (users' accounts, ticketing information, etc.). When choosing the setup type when installing MySQL, make sure to choose the "Typical" settings. Next check the "Launch the MySQL Instance Configuration Wizard" before clicking finish. After when asked for a configuration type, choose "Standard Configuration". When asked to "Please set the Windows Options", just press "Next". Then, choose a password then press "Next". Finally, press "Execute". You will need this username and password for Step 18. 
 </p>
 <br />
 
@@ -174,5 +174,66 @@ Step 14 - To enable those extensions. Go back to IIS, click on "Sites" then "Def
 </p>
 <p>
 Step 15 - Go to C:\inetpub\wwwroot\osTicket\include. Then find the file ost-sampleconfig.php then rename it to ost-config.php. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/zgeCwN8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/3hq3jCV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 16 - Permissions need to be assigned to file "ost-config.php", so osTicket can make changes to that file. First, go to "properties" then "Security" then "Advance". Within the "Advance Security Settings", click "Disable inhertitance" then click "Remove all inherited permissions from this object". After, click "Add" then click "Select a principal". For the purposes of this tutorial, type "Everyone" under "Enter the object's name to select" then click "Check Names" then "OK". Under normal circumstances, this would be bad practice because it can pose a security risk. Next, under "Basic Permissions", click "Full Controll". After press "OK". Finally, click "Apply" then "OK".   
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/a/wTuopsu" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 17 - Go back to the osTicket website to continue setting up osTicket in the browser. Click "Continue". Now fill out the information until "Database Settings". Note that the Default email must be different from the admin email. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/pP3Pj6C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/wffgZi5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/JrSEyLI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+Step 18 - Before clicking on "Install Now", we still need to login into the database to create another database specific for osTicket. Afterwards, we need to provide the credentials for it. Install HeidiSQL, which will allow us to make a connection to our database. From the “osTicket-Installation-Files” folder, install HeidiSQL. Keep pressing "Next" until you see "Install". Then click "Install." Make sure there is a check mark next to "Launch HeidiSQL" then click "Finish". After HeidiSQL opens, click on "New" then fill out the username and password you used for in Step 8. Then press "Open", which will open a connection to our database. Next right-click on "Unnamed" then "Create new" then "Database". The name of the database must be osTicket. Finally click "OK". Now "osticket" should be under "Unnamed".  
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/fMF4kmg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/dNT0yVq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 19 - Go back to the osTicket webiste to continue Setting up osTicket in the browser. Fill out the "Database Settings" portion. Afterwards, click "Install Now". If you go back to HeidiSQL to the database "osticket", "osticket" should be filled with content like the picture above. Congrats! osTicket should be installed  with no errors.  
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/oaibl2q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/z7krNCP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 20 - Finally, go to http://localhost/osTicket/scp/login.php to see if you can login. If you login successfully, the page should look similar to the picture above.
 </p>
 <br />
