@@ -77,9 +77,57 @@ Step 5 - Install Rewrite Module, which is another tool needed for IIS to run pro
 <br />
 
 <p>
+<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 6 - Create a folder in the C drive of the computer called "PHP". Then unzip PHP 7.3.8 into the folder "PHP" that was created. 
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/ufrM1A0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 6 - Create a folder in the C drive of the computer called "PHP".     
+Step 5 - Install Rewrite Module, which is another tool needed for IIS to run properly.     
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket to work. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket to work. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket to work. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket to work. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket to work. 
 </p>
 <br />
