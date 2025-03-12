@@ -117,9 +117,13 @@ Step 10 - Reload IIS by pressing the "Stop" then "Start", which are actions on t
 <br />
 
 <p>
-<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cUbcJ8e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket to work. 
+<p>
+<img src="https://i.imgur.com/fgACiLf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 11 - Install osTicket v1.15.8 by first extracting the files. Go to the file "osTicket v1.15.8 then copy the “upload” folder into “c:\inetpub\wwwroot”. After rename “upload” to “osTicket” exactly. 
 </p>
 <br />
