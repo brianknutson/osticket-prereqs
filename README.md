@@ -85,7 +85,7 @@ Step 6 - Create a folder in the C drive of the computer called "PHP". Then unzip
 <br />
 
 <p>
-<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4OU3UPu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket to work. 
@@ -93,26 +93,26 @@ Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket
 <br />
 
 <p>
-<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/76AVSm8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket to work. 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket to work. 
+Step 8 - Install MySQL 5.5.62., which is a database that osTicket will use to store all the data in (users' accounts, ticketing information, etc.). When choosing the setup type when installing MySQL, make sure to choose the "Typical" settings. Next check the "Launch the MySQL Instance Configuration Wizard" before clicking finish. After when asked for a configuration type, choose "Standard Configuration". When asked to "Please set the Windows Options", just press "Next". Then, choose a password then press "Next". Finally, press "Execute".  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vI4eluC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket to work. 
+Step 9 - Open IIS as an Admin. Then register PHP from within IIS, which will make the website server aware of the existence of the PHP on the computer. To register PHP, press "PHP Manager" then press "Register new PHP version". Next browse to the PHP folder in the C drive then press "php-cgi". Finally, press "OK". 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/kGGZTRv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 10 - Reload IIS by pressing the "Stop" then "Start", which are actions on the right side. 
 </p>
 <br />
 
