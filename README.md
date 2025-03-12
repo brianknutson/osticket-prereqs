@@ -144,6 +144,18 @@ Step 12 - Once again reload IIS by pressing the "Stop" then "Start", which are a
 <img src="https://i.imgur.com/HF4If2Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 13 - Within the IIS Manager,  go to "Sites" then "Default" then "osTicket". On the right, click “Browse *:80” to go to the osTicket website. 
+Step 13 - Within the IIS Manager,  go to "Sites" then "Default" then "osTicket". On the right, click “Browse *:80” to go to the osTicket website. If the osTicket website doesn't show up, there was most likely a mistake along the way. It may be best to start all over if you cannot determine the issue. Note that some extensions are not enabled such as "php_imap.dll", "php_intl.dll", and "php_opcache.dll". These will need to be enable. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/qauOm5P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/v8rpi5U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 14 - To enable those extensions. Go back to IIS, click on "Sites" then "Default" then "osTicket" then double-click PHP Manager. Then click "Enable or disable an extension". Next, enable "php_imap.dll", "php_intl.dll", and "php_opcache.dll".  
 </p>
 <br />
