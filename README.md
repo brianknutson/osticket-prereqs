@@ -51,21 +51,16 @@ Step 3.2 - To ensure 'Step 3' was done correctly, I went to a web browser and ty
 
 
 
-Step 4 - Install PHP Manager for IIS. PHP Manager is a tool that allows administrators and developers to manage and configure PHP installations on a Windows server running IIS. PHP Manager is needed for IIS to run properly.    
-<p>
-<img src="https://i.imgur.com/Wd6XcHM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+Step 4 - I installed PHP Manager for IIS. PHP Manager is a tool that allows administrators and developers to manage and configure PHP installations on a Windows server running IIS. PHP Manager is needed for IIS to run properly.    
 
-Step 5 - Install Rewrite Module, which is another tool needed for IIS to run properly.     
-<p>
-<img src="https://i.imgur.com/ufrM1A0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/0d01e14343753edc07333266d939ad7a15c5c846/5.PNG)
+
+
+
+Step 5 - I installed Rewrite Module, which is another tool needed for IIS to run properly.     
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/1c4226490f3f55906238ccb700af4512ae0304fe/5.5.PNG)
+
+
 
 Step 6 - Create a folder in the C drive of the computer called "PHP". Next, unzip PHP 7.3.8 into the folder "PHP" that was created. 
 <p>
