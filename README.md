@@ -33,13 +33,11 @@ Step 2 - Next, I logged into the virtual machine (VM) using Remote Desktop Conne
 
 ![image alt](https://github.com/brianknutson/osticket-prereqs/blob/716f013cde383dfb603b53cb3258684fb48989f3/Step2.png)
 
-Step 3 - Install and enable IIS (Internet Information Services) in Windows with CGI. To accomplish this, go to the control panel and press "Uninstall a program". Then press "Turn Windows features on or off". Look up Internet Information Services and check the box to the left. Afterward,  press on "World Wide Web Services" and then "Application Development Features" to check the box for CGI. Press "OK" and wait for CGI to load. CGI is one of the dependents osTicket needs for part of the web server.  
-<p>
-<img src="https://i.imgur.com/Wd6XcHM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+Step 3 - I installed and enabled IIS (Internet Information Services) in Windows with CGI. To accomplish this, I went to the control panel and press "Uninstall a program". Then press "Turn Windows features on or off". I looked up Internet Information Services and check the box to the left. Afterward, I press on "World Wide Web Services" and then "Application Development Features" to check the box for CGI. Finally, I pressed "OK" and waited for CGI to load. 
+
+CGI is one of the dependents osTicket needs for part of the web server.  
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/7aa0767f48d6c4497d0e259ffcd24d1dbbbaf213/3.PNG)
 
 Step 3.2 - To ensure Step 3 was done correctly, go to a web browser and type 127.0.0.1, which is an IP address for a computer's local network otherwise known as a loopback address. A similar image should appear if Step 3 was followed.   
 <p>
