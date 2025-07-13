@@ -25,7 +25,7 @@ This demonstration shows the prerequisites and installation of the open-source h
 <h2>Installation Steps</h2>
 
 
-Step 1 - Microsoft Azure will be used in this tutorial to set up the osTicket system. A virtual machine (VM) will be created along with a resource group within Azure. The resource group will be made when creating the VM. In this case, a Microsoft Windows 10, 4 vCPUs virtual machine will be used.
+Step 1 - Microsoft Azure will be used in this demonstration to set up the osTicket system. A virtual machine (VM) was created along with a resource group within Azure. The resource group was made when creating the VM. In this case, a Microsoft Windows 10 Pro virtual machine was used.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
