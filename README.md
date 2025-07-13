@@ -31,7 +31,7 @@ Step 1 - Microsoft Azure will be used in this demonstration to set up the osTick
 
 Step 2 - Next, I logged into the virtual machine (VM) using Remote Desktop Connection. Used the computer's public IP address. Then, use the username and password I used to set up the VM to log in. 
 
-
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/716f013cde383dfb603b53cb3258684fb48989f3/Step2.png)
 
 Step 3 - Install and enable IIS (Internet Information Services) in Windows with CGI. To accomplish this, go to the control panel and press "Uninstall a program". Then press "Turn Windows features on or off". Look up Internet Information Services and check the box to the left. Afterward,  press on "World Wide Web Services" and then "Application Development Features" to check the box for CGI. Press "OK" and wait for CGI to load. CGI is one of the dependents osTicket needs for part of the web server.  
 <p>
