@@ -26,12 +26,8 @@ This demonstration shows the prerequisites and installation of the open-source h
 
 
 Step 1 - Microsoft Azure will be used in this demonstration to set up the osTicket system. A virtual machine (VM) was created along with a resource group within Azure. The resource group was made when creating the VM. In this case, a Microsoft Windows 10 Pro virtual machine was used.
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/919387f5146c86c6fe536071f3170d44c52246e7/Screenshot%202025-07-13%20142742.png)
 
 Step 2 - Next, log into the virtual machine (VM) using Remote Desktop Connection. Use the computer's public IP address. Then, use the username and password you used to set up the VM to log in. 
 <p>
