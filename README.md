@@ -29,9 +29,13 @@ Step 1 - Microsoft Azure will be used in this demonstration to set up the osTick
 
 ![image alt](https://github.com/brianknutson/osticket-prereqs/blob/919387f5146c86c6fe536071f3170d44c52246e7/Screenshot%202025-07-13%20142742.png)
 
+
+
 Step 2 - Next, I logged into the virtual machine (VM) using Remote Desktop Connection. Used the computer's public IP address. Then, use the username and password I used to set up the VM to log in. 
 
 ![image alt](https://github.com/brianknutson/osticket-prereqs/blob/716f013cde383dfb603b53cb3258684fb48989f3/Step2.png)
+
+
 
 Step 3 - I installed and enabled IIS (Internet Information Services) in Windows with CGI. To accomplish this, I went to the control panel and press "Uninstall a program". Then press "Turn Windows features on or off". I looked up Internet Information Services and check the box to the left. Afterward, I press on "World Wide Web Services" and then "Application Development Features" to check the box for CGI. Finally, I pressed "OK" and waited for CGI to load. 
 
@@ -39,13 +43,13 @@ CGI is one of the dependents osTicket needs for part of the web server.
 
 ![image alt](https://github.com/brianknutson/osticket-prereqs/blob/7aa0767f48d6c4497d0e259ffcd24d1dbbbaf213/3.PNG)
 
-Step 3.2 - To ensure Step 3 was done correctly, go to a web browser and type 127.0.0.1, which is an IP address for a computer's local network otherwise known as a loopback address. A similar image should appear if Step 3 was followed.   
-<p>
-<img src="https://imgur.com/EyyYfyB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+
+
+Step 3.2 - To ensure 'Step 3' was done correctly, I went to a web browser and type 127.0.0.1, which is an IP address for a computer's local network otherwise known as a loopback address. With the following image, I know 'Step 3' was done correctly. 
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/c993144cc35e89945b010320ad81bcfce3d8dbd6/4.PNG)
+
+
 
 Step 4 - Install PHP Manager for IIS. PHP Manager is a tool that allows administrators and developers to manage and configure PHP installations on a Windows server running IIS. PHP Manager is needed for IIS to run properly.    
 <p>
