@@ -76,9 +76,11 @@ Step 7 - I installed VC_redist.x86.exe, which is another program needed for osTi
 
 Step 8 - I installed MySQL 5.5.62., which is a database that osTicket will use to store all the data (users' accounts, ticketing information, etc.). When choosing the setup type when installing MySQL, I made sure to choose the "Typical" settings. Next, I checked the "Launch the MySQL Instance Configuration Wizard" before clicking finish. After when asked for a configuration type, I chose "Standard Configuration". When asked to "Please set the Windows Options", again I pressed "Next". Then, I chose a password and afterward pressed "Next". Finally, I pressed "Execute". I will use this username and password for Step 18. 
 
-![image alt](
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/b5e58ec9abdaf520187554d0d1bddd07fdec5d4b/8.PNG)
 
-Step 9 - Open IIS as an Admin. Then register PHP from within IIS, which will make the website server aware of the existence of the PHP on the computer. To register PHP, press "PHP Manager" then press "Register new PHP version". Next, browse to the PHP folder in the C drive then press "php-cgi". Finally, press "OK". 
+
+
+Step 9 - Opening IIS as an Admin. I registered PHP from within IIS, which will make the website server aware of the existence of the PHP on the computer. To register PHP, I pressed "PHP Manager" then pressed "Register new PHP version". Next, I browsed to "C:\PHP folder" then pressd "php-cgi". Finally, I pressed "OK". 
 <p>
 <img src="https://i.imgur.com/vI4eluC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
