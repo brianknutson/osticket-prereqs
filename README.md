@@ -62,29 +62,21 @@ Step 5 - I installed Rewrite Module, which is another tool needed for IIS to run
 
 
 
-Step 6 - Create a folder in the C drive of the computer called "PHP". Next, unzip PHP 7.3.8 into the folder "PHP" that was created. 
-<p>
-<img src="https://i.imgur.com/y63h6hL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+Step 6 - I created a folder in the C: Drive of the computer called "PHP". Next, I unziped PHP 7.3.8 into the folder "C:\PHP folder" that was created. 
 
-Step 7 - Install VC_redist.x86.exe, which is another program needed for osTicket to work. 
-<p>
-<img src="https://i.imgur.com/4OU3UPu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/ce7e40a294a130671d8d95ce8cd604f7cb3a9aaf/6.PNG)
 
-Step 8 - Install MySQL 5.5.62., which is a database that osTicket will use to store all the data (users' accounts, ticketing information, etc.). When choosing the setup type when installing MySQL, make sure to choose the "Typical" settings. Next, check the "Launch the MySQL Instance Configuration Wizard" before clicking finish. After when asked for a configuration type, choose "Standard Configuration". When asked to "Please set the Windows Options", press "Next". Then, choose a password and afterward press "Next". Finally, press "Execute". You will need this username and password for Step 18. 
-<p>
-<img src="https://i.imgur.com/76AVSm8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+
+
+Step 7 - I installed VC_redist.x86.exe, which is another program needed for osTicket to work. 
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/b1a4c9a05887bbf6b098a8152520be3e46e0e2c1/7.PNG) 
+
+
+
+Step 8 - I installed MySQL 5.5.62., which is a database that osTicket will use to store all the data (users' accounts, ticketing information, etc.). When choosing the setup type when installing MySQL, I made sure to choose the "Typical" settings. Next, I checked the "Launch the MySQL Instance Configuration Wizard" before clicking finish. After when asked for a configuration type, I chose "Standard Configuration". When asked to "Please set the Windows Options", again I pressed "Next". Then, I chose a password and afterward pressed "Next". Finally, I pressed "Execute". I will use this username and password for Step 18. 
+
+![image alt](
 
 Step 9 - Open IIS as an Admin. Then register PHP from within IIS, which will make the website server aware of the existence of the PHP on the computer. To register PHP, press "PHP Manager" then press "Register new PHP version". Next, browse to the PHP folder in the C drive then press "php-cgi". Finally, press "OK". 
 <p>
