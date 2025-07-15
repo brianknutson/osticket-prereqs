@@ -80,41 +80,23 @@ Step 8 - I installed MySQL 5.5.62., which is a database that osTicket will use t
 
 
 
-Step 9 - Opening IIS as an Admin. I registered PHP from within IIS, which will make the website server aware of the existence of the PHP on the computer. To register PHP, I pressed "PHP Manager" then pressed "Register new PHP version". Next, I browsed to "C:\PHP folder" then pressd "php-cgi". Finally, I pressed "OK". 
-<p>
-<img src="https://i.imgur.com/vI4eluC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+Step 9 - Opening IIS as an Admin. I registered PHP from within IIS, which will make the website server aware of the existence of the PHP on the computer. To registered PHP, I pressed "PHP Manager" then pressed "Register new PHP version". Next, I browsed to "C:\PHP folder" then pressed "php-cgi". Finally, I pressed "OK". 
 
-Step 10 - Reload IIS by pressing the "Stop" and then "Start", which are actions on the right side. 
-<p>
-<img src="https://i.imgur.com/kGGZTRv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/81db5ae96a687308cb7e4e71041f939f538e473d/9.PNG)
 
-Step 11 - Install osTicket v1.15.8 by first extracting the files. Go to the file "osTicket v1.15.8" then copy the "upload" folder into "c:\inetpub\wwwroot". After renaming "upload" to "osTicket" exactly. 
-<p>
-<img src="https://i.imgur.com/cUbcJ8e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/fgACiLf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+Step 10 - I reloaded IIS by pressing the "Stop" and then "Start", which are actions on the right side. 
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/81db5ae96a687308cb7e4e71041f939f538e473d/10.PNG)
+
+Step 11 - I installed osTicket v1.15.8 by first extracting the files. Then I went to the file "osTicket v1.15.8" then copy the "upload" folder into "c:\inetpub\wwwroot". Afterwards, I renamed "upload" to "osTicket". 
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/81db5ae96a687308cb7e4e71041f939f538e473d/11.PNG)
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/81db5ae96a687308cb7e4e71041f939f538e473d/11.5.PNG)
 
 Step 12 - Once again reload IIS by pressing the "Stop" and then "Start", which are actions on the right side. 
-<p>
-<img src="https://i.imgur.com/kGGZTRv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/81db5ae96a687308cb7e4e71041f939f538e473d/10.PNG)
 
 Step 13 - Within the IIS Manager,  go to "Sites" then "Default" then "osTicket". On the right, click “Browse *:80” to go to the osTicket website. If the osTicket website doesn't show up, there was most likely a mistake along the way. It may be best to start all over if you cannot determine the issue. Note that some extensions are not enabled such as "php_imap.dll", "php_intl.dll", and "php_opcache.dll". These will need to be enabled. 
 <p>
