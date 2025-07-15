@@ -104,7 +104,11 @@ Step 13 - Within the IIS Manager,  I went to "Sites" then "Default" then "osTick
 
 ![image alt](https://github.com/brianknutson/osticket-prereqs/blob/ecbb4e2371dd88ef5bcec70b9c11a9747863f619/12.5.PNG)
 
-Step 14 - To enable those extensions. I went back to IIS, clicked on "Sites" then "Default" then "osTicket" and then double-clicked PHP Manager. Then I clicked "Enable or disable an extension". Next, I enabled "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Finally, I refreshed the osTicket site in my browser to ensure that those extensions were enabled.  
+Step 14 - To enable those extensions. I went back to IIS, clicked on "Sites" then "Default" then "osTicket" and then double-clicked PHP Manager. Then I clicked "Enable or disable an extension". 
+
+Next, I enabled "php_imap.dll", "php_intl.dll", and "php_opcache.dll". 
+
+Finally, I refreshed the osTicket site in my browser to ensure that those extensions were enabled.  
 
 ![image alt](https://github.com/brianknutson/osticket-prereqs/blob/3324a3887a7619fc657b1b81852939e88adeeeac/14.PNG)
 
@@ -118,27 +122,23 @@ Step 15 - I went to C:\inetpub\wwwroot\osTicket\include. Next, I found the file 
 
 ![image alt](https://github.com/brianknutson/osticket-prereqs/blob/39248810311c805a932b3b9b3b39a871f5eff335/15.5.PNG)
 
-Step 16 - Permissions need to be assigned to file "ost-config.php", so osTicket can make changes to that file. First, I went to "Properties" then "Security" then "Advance". Within the "Advance Security Settings", I clicked "Disable Inheritance" then clicked "Remove all inherited permissions from this object". After, I clicked "Add" and then clicked on "Select a principal". For this demonstration, I typed "Everyone" under "Enter the object's name to select" then clicked "Check Names" then "OK". Under normal circumstances, this would be considered bad practice because it can pose a security risk. Next, under "Basic Permissions", I clicked "Full Control". After, I pressed "OK". Finally, I clicked "Apply" then "OK".   
-<p>
-<img src="https://i.imgur.com/zgeCwN8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/3hq3jCV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+Step 16 - Permissions need to be assigned to file "ost-config.php", so osTicket can make changes to that file. First, I went to "Properties" then "Security" then "Advance". Within the "Advance Security Settings", I clicked "Disable Inheritance" then clicked "Remove all inherited permissions from this object". 
 
-Step 17 - Go back to the osTicket website to continue setting up osTicket in the browser. Click "Continue". Now fill out the information until "Database Settings". Note that the Default email must be different from the admin email. 
-<p>
-<img src="https://i.imgur.com/hfnUyf7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+After, I clicked "Add" and then clicked on "Select a principal". For this demonstration, I typed "Everyone" under "Enter the object's name to select" then clicked "Check Names" then "OK". Under normal circumstances, this would be considered bad practice because it can pose a security risk. Next, under "Basic Permissions", I clicked "Full Control". After, I pressed "OK". Finally, I clicked "Apply" then "OK".   
 
-Step 18 - Before clicking on "Install Now", we still need to log into the database to create another database specific to osTicket. Afterward, we need to provide the credentials for it. Install HeidiSQL, which will allow us to make a connection to our database. From the “osTicket-Installation-Files” folder, install HeidiSQL. Keep pressing "Next" until you see "Install". Then click "Install." Make sure there is a checkmark next to "Launch HeidiSQL" then click "Finish". After HeidiSQL opens, click on "New" then fill out the username and password you used in Step 8. Then press "Open", which will open a connection to our database. Next, right-click on "Unnamed" then "Create new" then "Database". The name of the database must be osTicket. Finally, click "OK". Now "osticket" should be under "Unnamed".  
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/c22ca761f35dc4f28224c32ea5ca972fbc6642d2/16.PNG)
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/c22ca761f35dc4f28224c32ea5ca972fbc6642d2/16.5.PNG)
+
+Step 17 - I went back to the osTicket website to continue setting up osTicket in the browser. I clicked "Continue". Then I filled out the information until "Database Settings". Note that the Default email must be different from the admin email. 
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/5bf2bf5227b9719494d7b7375a8732396a31ed0b/17.PNG)
+
+Step 18 - Before clicking on "Install Now", I still need to log into the database to create another database specific to osTicket. Afterwards, I need to provide the credentials for it. I installed HeidiSQL, which will allow me to make a connection to the database. From the “osTicket-Installation-Files” folder, I installed HeidiSQL. I kept pressing "Next" until I saw "Install". Then I clicked "Install." I made sure there is a checkmark next to "Launch HeidiSQL" then I clicked "Finish". 
+
+After HeidiSQL opens, I clicked on "New" then fill out the username and password I used in Step 8. 
+
+Then I pressed "Open", which will open a connection to our database. Next, I right-clicked on "Unnamed" then "Create new" then "Database". The name of the database must be osTicket. Finally, I clicked "OK". Now "osticket" will be under "Unnamed".  
 <p>
 <img src="https://i.imgur.com/ZvcTnDk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
