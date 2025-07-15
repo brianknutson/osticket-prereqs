@@ -112,19 +112,13 @@ Step 14 - To enable those extensions. I went back to IIS, clicked on "Sites" the
 
 ![image alt](https://github.com/brianknutson/osticket-prereqs/blob/3324a3887a7619fc657b1b81852939e88adeeeac/14.3.PNG)
 
-Step 15 - Go to C:\inetpub\wwwroot\osTicket\include. Next, find the file ost-sampleconfig.php then rename it to ost-config.php. 
-<p>
-<img src="https://i.imgur.com/zjWpMvp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/bOnlgQy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+Step 15 - I went to C:\inetpub\wwwroot\osTicket\include. Next, I found the file ost-sampleconfig.php then renamed it to ost-config.php. 
 
-Step 16 - Permissions need to be assigned to file "ost-config.php", so osTicket can make changes to that file. First, go to "Properties" then "Security" then "Advance". Within the "Advance Security Settings", click "Disable Inheritance" then click "Remove all inherited permissions from this object". After, click "Add" and then click on "Select a principal". For this tutorial, type "Everyone" under "Enter the object's name to select" then click "Check Names" then "OK". Under normal circumstances, this would be considered bad practice because it can pose a security risk. Next, under "Basic Permissions", click "Full Control". After, press "OK". Finally, click "Apply" then "OK".   
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/39248810311c805a932b3b9b3b39a871f5eff335/15.PNG)
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/39248810311c805a932b3b9b3b39a871f5eff335/15.5.PNG)
+
+Step 16 - Permissions need to be assigned to file "ost-config.php", so osTicket can make changes to that file. First, I went to "Properties" then "Security" then "Advance". Within the "Advance Security Settings", I clicked "Disable Inheritance" then clicked "Remove all inherited permissions from this object". After, I clicked "Add" and then clicked on "Select a principal". For this demonstration, I typed "Everyone" under "Enter the object's name to select" then clicked "Check Names" then "OK". Under normal circumstances, this would be considered bad practice because it can pose a security risk. Next, under "Basic Permissions", I clicked "Full Control". After, I pressed "OK". Finally, I clicked "Apply" then "OK".   
 <p>
 <img src="https://i.imgur.com/zgeCwN8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
