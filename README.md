@@ -104,22 +104,13 @@ Step 13 - Within the IIS Manager,  I went to "Sites" then "Default" then "osTick
 
 ![image alt](https://github.com/brianknutson/osticket-prereqs/blob/ecbb4e2371dd88ef5bcec70b9c11a9747863f619/12.5.PNG)
 
-Step 14 - To enable those extensions. Go back to IIS, click on "Sites" then "Default" then "osTicket" and then double-click PHP Manager. Then click "Enable or disable an extension". Next, enable "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Finally, refresh the osTicket site in your browser. Your osTicket site should look similar to the picture of the osTicket website above below enabling those extensions.  
-<p>
-<img src="https://i.imgur.com/qauOm5P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/v8rpi5U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/tTT4itq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-</p>
-<br />
+Step 14 - To enable those extensions. I went back to IIS, clicked on "Sites" then "Default" then "osTicket" and then double-clicked PHP Manager. Then I clicked "Enable or disable an extension". Next, I enabled "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Finally, I refreshed the osTicket site in my browser to ensure that those extensions were enabled.  
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/3324a3887a7619fc657b1b81852939e88adeeeac/14.PNG)
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/3324a3887a7619fc657b1b81852939e88adeeeac/14.2.PNG)
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/3324a3887a7619fc657b1b81852939e88adeeeac/14.3.PNG)
 
 Step 15 - Go to C:\inetpub\wwwroot\osTicket\include. Next, find the file ost-sampleconfig.php then rename it to ost-config.php. 
 <p>
