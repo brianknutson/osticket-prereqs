@@ -139,42 +139,25 @@ Step 18 - Before clicking on "Install Now", I still need to log into the databas
 After HeidiSQL opens, I clicked on "New" then fill out the username and password I used in Step 8. 
 
 Then I pressed "Open", which will open a connection to our database. Next, I right-clicked on "Unnamed" then "Create new" then "Database". The name of the database must be osTicket. Finally, I clicked "OK". Now "osticket" will be under "Unnamed".  
-<p>
-<img src="https://i.imgur.com/ZvcTnDk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/wffgZi5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/JrSEyLI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-</p>
-<br />
 
-Step 19 - Go back to the osTicket website to continue Setting up osTicket in the browser. Fill out the "Database Settings" portion. Afterward, click "Install Now". If you go back to HeidiSQL to the database "osticket", "osticket" should be filled with content like the picture above. Congrats! osTicket should be installed with no errors.  
-<p>
-<img src="https://i.imgur.com/fMF4kmg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/dNT0yVq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/7f1e3f30b12145f3c5dfdecaac27cf639ad6163d/18.PNG)
 
-Step 20 - Finally, go to http://localhost/osTicket/scp/login.php to see if you can log in. If you log in successfully, the page should look similar to the picture above.
-<p>
-<img src="https://i.imgur.com/oaibl2q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/z7krNCP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/7f1e3f30b12145f3c5dfdecaac27cf639ad6163d/18.5.PNG)
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/7f1e3f30b12145f3c5dfdecaac27cf639ad6163d/18.8.PNG)
+
+Step 19 - I went back to the osTicket website to continued setting up osTicket in the browser. I filled out the "Database Settings" portion. Afterward, I clicked "Install Now".
+
+When I went to go back to HeidiSQL to the database "osticket", "osticket" was filled with content like the picture below. Now osTicket is installed with no errors.  
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/96712a03fcf5852a67d91c3f799af6d361833f3b/19.PNG)
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/96712a03fcf5852a67d91c3f799af6d361833f3b/19.5.PNG)
+
+Step 20 - Finally, I went to http://localhost/osTicket/scp/login.php to see if you can log in. 
+
+When I logged in successfully, the page looked like the picture below.
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/71f8c5898c6e1e25007402b19b4f6d380386aba8/20.PNG)
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/71f8c5898c6e1e25007402b19b4f6d380386aba8/20.5.PNG)
