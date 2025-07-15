@@ -98,17 +98,11 @@ Step 12 - Once again reload IIS by pressing the "Stop" and then "Start", which a
 
 ![image alt](https://github.com/brianknutson/osticket-prereqs/blob/81db5ae96a687308cb7e4e71041f939f538e473d/10.PNG)
 
-Step 13 - Within the IIS Manager,  go to "Sites" then "Default" then "osTicket". On the right, click “Browse *:80” to go to the osTicket website. If the osTicket website doesn't show up, there was most likely a mistake along the way. It may be best to start all over if you cannot determine the issue. Note that some extensions are not enabled such as "php_imap.dll", "php_intl.dll", and "php_opcache.dll". These will need to be enabled. 
-<p>
-<img src="https://i.imgur.com/kmsnD6l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/HF4If2Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
+Step 13 - Within the IIS Manager,  I went to "Sites" then "Default" then "osTicket". On the right, I clicked “Browse *:80” to go to the osTicket website. Some extensions are not enabled such as "php_imap.dll", "php_intl.dll", and "php_opcache.dll". These will be enabled in the following steps. 
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/ecbb4e2371dd88ef5bcec70b9c11a9747863f619/12.PNG)
+
+![image alt](https://github.com/brianknutson/osticket-prereqs/blob/ecbb4e2371dd88ef5bcec70b9c11a9747863f619/12.5.PNG)
 
 Step 14 - To enable those extensions. Go back to IIS, click on "Sites" then "Default" then "osTicket" and then double-click PHP Manager. Then click "Enable or disable an extension". Next, enable "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Finally, refresh the osTicket site in your browser. Your osTicket site should look similar to the picture of the osTicket website above below enabling those extensions.  
 <p>
